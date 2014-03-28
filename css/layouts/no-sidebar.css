@@ -1,0 +1,14 @@
+/*
+Theme Name: Sixteen
+Layout: Sidebar-Content
+*/
+
+#secondary {
+	width: 0%;
+	float: none;
+	display:none;
+}
+#primary {
+	width: 100%;
+	float: none;
+}

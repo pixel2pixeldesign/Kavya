@@ -1,0 +1,15 @@
+/*
+Theme Name: Sixteen
+Layout: Sidebar-Content
+*/
+
+#secondary {
+	width: 29%;
+	float: left;
+}
+#primary {
+	width: 69%;
+	float: right;
+}
+.site-content .entry-content blockquote, .site-content .comment-content blockquote, #tinymce blockquote {
+margin-right: -25px; margin-left:0px!important; }
