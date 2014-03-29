@@ -113,7 +113,7 @@ add_action( 'optionsframework_custom_scripts', 'optionsframework_custom_scripts'
 
 function optionsframework_custom_scripts() { ?>
 
-<!--<script type="text/javascript">
+<script type="text/javascript">
 jQuery(document).ready(function() {
 
 	jQuery('#example_showhidden').click(function() {
@@ -125,7 +125,7 @@ jQuery(document).ready(function() {
 	}
 
 });
-</script>-->
+</script>
 
 <?php
 }
@@ -167,27 +167,6 @@ function kavya_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'kavya_scripts' );
 
-
-/**
- * Function for Layout Setting Tab
- */
-function kavya_custom_head_codes() {	
-	if ( (function_exists( 'of_get_option' )) && (of_get_option('style2', true) != 1) ) {
-		echo "<style type='text/css'>".of_get_option('style2', true)."</style>";
-	}
-	if ( (function_exists( 'of_get_option' )) && (of_get_option('analytics', true) != 1) ) {
-		echo "<script type='text/javascript'>var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', '".of_get_option('analytics', true)."']);
-	  _gaq.push(['_trackPageview']);
-	
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();</script>";
-	}
-}	
-add_action('wp_head', 'kavya_custom_head_codes');
 
 /**
  * Implement the Custom Header feature.

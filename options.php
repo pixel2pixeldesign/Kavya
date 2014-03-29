@@ -26,11 +26,10 @@ function optionsframework_option_name() {
  */
 
 function optionsframework_options() {
-
-	// If using image radio buttons, define a directory path
-	$imagepath =  get_template_directory_uri() . '/images/';
-
+	
 	$options = array();
+	// If using image radio buttons, define a directory path
+	$imagepath =  get_template_directory_uri() . '/images/';	
 	
 	// Layout Settings Tab
 	$options[] = array(
@@ -69,25 +68,6 @@ function optionsframework_options() {
 		'id' => 'footertext2',
 		'std' => '',
 		'type' => 'text');
-		
-	$options[] = array(
-		'desc' => __('To have more customization options including Analytics, Custom Header/Footer Scripts Upgrade to Pro at Just $24.95'),
-		'std' => '',
-		'type' => 'info');
-		
-	
-	//Analytics Settings Tab
-	$options[] = array(
-		'name' => __('Analytics', 'kavya'),
-		'type' => 'heading' );
-		
-	$options[] = array(
-		'name' => __('Google Analytics', 'kavya'),
-		'desc' => __('Place your google analytics ID here for example "UA-1072xxxx-x"', 'options_framework_theme'),
-		'id' => 'analytics',
-		'std' => '',
-		'type' => 'text');
-		
 		
 	
 	//Social Settings

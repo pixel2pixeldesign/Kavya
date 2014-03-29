@@ -8,6 +8,30 @@ For more information about licensing, please refer to license.txt file distribut
 
 For more information about the Underscores (_s) starter theme visit: http://underscores.me/
 
+Coded by Suresh Patel
+Brought to you by Pixel2Pixel Design, http://pixel2pixeldesign.com/
+
+Requires at least:	3.6.0
+Tested up to:		3.9-alpha
+Stable tag:			1.2
+
+== Copyright ==
+Kavya, Copyright 2014 Pixel2PixelDesign.com
+Kavya is distributed under the terms of the GNU GPL
+
+Images used in the demo site and the screenshot are from PixaBay.com and are released under the CC0 license
+The screenshot's visible images are as follow:
+
+1) http://martz90.deviantart.com/art/Circle-Icons-Pack-371172325 - Social Icons Images
+2) http://pixabay.com/en/sea-ocean-water-palms-palm-trees-77737/ - 1st image in left sidebar
+3) http://pixabay.com/en/chain-bridge-budapest-united-states-111329/ - 1st grid image.
+4) http://pixabay.com/en/colored-pencils-pens-crayons-168392/ - 2nd grid image.
+5) http://pixabay.com/en/colored-pencils-colour-pencils-star-179167/ - 3rd grid image.
+6) http://pixabay.com/en/creek-falls-flow-flowing-forest-21749/ - Center main post image.
+7) http://pixabay.com/en/fruit-pepper-vegetable-vegetables-210105/ - Top right sidebar.
+8) http://pixabay.com/en/coast-beach-rock-stones-sky-192979/ - 3rd image in left sidebar.
+9) http://pixabay.com/en/water-waters-bach-waterfall-murmur-4188/ - bottom right sidebar.
+
 = FAQ =
 
 Q: How do you set featured posts?
