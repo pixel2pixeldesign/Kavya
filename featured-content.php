@@ -61,5 +61,6 @@ $featured_posts = kavya_get_featured_posts();
 
 	<?php endwhile; ?>
 </div><!-- .featured-content-secondary -->
+<?php wp_reset_postdata(); ?>
 <?php endif; // have_posts() inner ?>
 <?php endif; // have_posts() ?>

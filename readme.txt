@@ -1,19 +1,21 @@
-= Kavya =
+﻿= Kavya =
 
 An awesome magazine theme for your WordPress site. Responsive layout, post thumbnail support, featured posts and more.
 
 1. Kavya is free software licensed under the GNU General Public License version 
 2. Kavya is based on the _s (Underscores) starter theme by Automattic Inc., which is also licensed under GPLv2. 
-For more information about licensing, please refer to license.txt file distributed with this theme or http://www.gnu.org/licenses/gpl-2.0.html
+3. Kavya is based on Options Framework Theme by Devin Price, which is also licensed under GPLv2. 
 
+For more information about licensing, please refer to license.txt file distributed with this theme or http://www.gnu.org/licenses/gpl-2.0.html
 For more information about the Underscores (_s) starter theme visit: http://underscores.me/
+For more information about the Options Framework Theme visit: http://wptheming.com/options-framework-theme/
 
 Coded by Suresh Patel
 Brought to you by Pixel2Pixel Design, http://pixel2pixeldesign.com/
 
 Requires at least:	3.6.0
 Tested up to:		3.9-alpha
-Stable tag:			1.2
+Stable tag:		1.3
 
 == Copyright ==
 Kavya, Copyright 2014 Pixel2PixelDesign.com
@@ -63,15 +65,4 @@ A: Easy. Use Theme Options > Social Settings page to add your social profiles li
 
 = Translations =
 
-If you've translated this theme into your language, feel free to send the translation over to suresh.savliya@gmail.com. Currently the following translations are available:
-
-Russian by Konstantin Kovshenin ( http://kovshenin.com )
-French by Lumière de Lune ( http://lumieredelune.com )
-Brazilian Portugese by Rafael Funchal ( http://www.rafaelfunchal.com.br )
-Italian by Fx Bénard ( https://github.com/fxbenard )
-Chinese (Taiwan)
-Chinese (China)
-Polish
-Bulgarian
-German
-Spanish
+If you've translated this theme into your language, feel free to send the translation over to suresh.savliya@gmail.com. 

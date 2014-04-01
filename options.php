@@ -165,16 +165,16 @@ function optionsframework_options() {
 	'type' => 'heading');
 	
 	$options[] = array(
-		'desc' => __('Kavya WordPress theme has been Designed and Created by <a href="http://pixel2pixeldesign.com" target="_blank">Suresh Patel</a>. For any Queries or help regarding this theme, <a href="http://wordpress.org/support/theme/kavya" target="_blank">use our support forum.</a>', 'kavya'),
+		'desc' => __('Kavya WordPress theme has been Designed and Created by <a href="'. esc_url( 'http://pixel2pixeldesign.com') .'" target="_blank">Suresh Patel</a>. For any Queries or help regarding this theme, <a href="'. esc_url( 'http://wordpress.org/support/theme/kavya') .'" target="_blank">use our support forum.</a>', 'kavya'),
 		'type' => 'info');	
 		
 	$options[] = array(
-		'desc' => __('<a href="http://twitter.com/suresh_p12" target="_blank">Follow Me on Twitter</a> to know about my upcoming themes.', 'kavya'),
+		'desc' => __('<a href="'. esc_url( 'https://twitter.com/suresh_p12') .'" target="_blank">Follow Me on Twitter</a> to know about my upcoming themes.', 'kavya'),
 		'type' => 'info');	
 	
 	$options[] = array(
 		'name' => __('Live Demo Blog', 'kavya'),
-		'desc' => __('I have created a  <a href="#" target="_blank">Live Demo Blog</a> of this theme so that you know how it will look once ready.'),
+		'desc' => __('I have created a  <a href="'. esc_url( '#') .'" target="_blank">Live Demo Blog</a> of this theme so that you know how it will look once ready.'),
 		'std' => '',
 		'type' => 'info');	
 	
@@ -184,7 +184,7 @@ function optionsframework_options() {
 		'type' => 'info');	
 		
 	$options[] = array(
-		'desc' => __('To Regenerate all Thumbnail images, Install and Activate the <a href="http://wordpress.org/plugins/regenerate-thumbnails/" target="_blank">Regenerate Thumbnails</a> WP Plugin. Then from <strong>Tools &gt; Regen. Thumbnails</strong>, re-create thumbnails for all your existing images. And your blog will look even more stylish with Kavya theme.<br /> ', 'kavya'),
+		'desc' => __('To Regenerate all Thumbnail images, Install and Activate the <a href="'. esc_url( 'http://wordpress.org/plugins/regenerate-thumbnails/') .'" target="_blank">Regenerate Thumbnails</a> WP Plugin. Then from <strong>Tools &gt; Regen. Thumbnails</strong>, re-create thumbnails for all your existing images. And your blog will look even more stylish with Kavya theme.<br /> ', 'kavya'),
 		'type' => 'info');	
 		
 			
