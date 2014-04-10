@@ -12,7 +12,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
     <div class="container">
-    	<?php if ( of_get_option('credit1', true) == 0 ) { ?>
+    	<?php if ( of_get_option('credit1', false) == 0 ) { ?>
 		<div class="site-info">
         	<?php do_action( 'kavya_credits' ); ?>
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'kavya' ) ); ?>"><?php printf( __( 'Proudly Powered by %s', 'kavya' ), 'WordPress' ); ?></a>

@@ -3,13 +3,13 @@ Theme Name: Kavya
 Theme URI: https://github.com/pixel2pixeldesign/Kavya
 Author: Suresh Patel
 Author URI: http://pixel2pixeldesign.com/
-Description: Kavya is an artistic and responsive theme suitable for most blogs. It supports header image. A Customizable Header and Footer, Grid Layout for Homepage, etc make it one of the most unqiue wordpress themes.
-Version: 1.3
+Description: Kavya is an artistic and responsive theme suitable for most blogs. It supports header image. A Customizable Header and Footer, Grid Layout for Homepage, etc make it one of the most unique wordpress themes.
+Version: 1.3.2
 License: GNU General Public License
 License URI: license.txt
 Text Domain: kavya
 Domain Path: /languages/
-Tags: light, yellow, brown, custom-background, two-columns, right-sidebar, left-sidebar, responsive-layout, custom-menu, sticky-post, theme-options, threaded-comments, translation-ready, featured-images, photoblogging, custom-header, full-width-template, editor-style
+Tags: light, blue, black, custom-background, two-columns, right-sidebar, left-sidebar, responsive-layout, custom-menu, sticky-post, theme-options, threaded-comments, translation-ready, featured-images, photoblogging, custom-header, full-width-template, editor-style
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -80,7 +80,7 @@ html {
 	box-sizing:         border-box;
 }
 body {
-	background: #E6E1C4;
+	background: #555555;
 }
 article,
 aside,

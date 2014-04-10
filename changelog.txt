@@ -1,0 +1,17 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+(2014-04-10)
+[+] Added wp_reset_postdata() to featured-content.php for secondery loop
+[!] Resolved Nothing FOund post error on home page
+[*] Updated Option Framework with the latest version
+
+(2014-03-30)
+Initial Release

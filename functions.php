@@ -59,7 +59,7 @@ function kavya_setup() {
 
 	// Setup the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'kavya_custom_background_args', array(
-		'default-color' => 'E6E1C4',
+		'default-color' => '555555',
 		'default-image' => '',
 	) ) );
 

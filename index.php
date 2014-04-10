@@ -40,11 +40,19 @@ get_header(); ?>
 
 			<?php kavya_paging_nav( 'nav-below' ); ?>
 
-		<?php else : ?>
+			<?php elseif ( ! is_home() || is_paged() ) : ?>
 
-			<?php get_template_part( 'content', 'none' ); ?>
+				<?php get_template_part( 'content', 'none' ); ?>
+      
+			<?php else : ?>
+    
+			<?php
+				$featured_posts = kavya_get_featured_posts();
+				if ( ! $featured_posts->have_posts() )
+					get_template_part( 'content', 'none' );
+			?>
 
-		<?php endif; ?>
+			<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

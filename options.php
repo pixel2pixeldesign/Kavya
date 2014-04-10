@@ -199,6 +199,7 @@ function optionsframework_options() {
 		'id' => 'credit1',
 		'std' => '0',
 		'type' => 'checkbox');
+		
 
 	return $options;
 }
