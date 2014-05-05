@@ -8,6 +8,13 @@ Changelog Legend:
 [x] = Deleted
 [!] = Bugs
 
+(2014-04-18)
+[+] Added BandCamp Social Media Icon
+[!] Fix the bug of sidebar not displaying by default in function.php
+
+(2014-03-30)
+Initial Release
+
 (2014-04-10)
 [+] Added wp_reset_postdata() to featured-content.php for secondery loop
 [!] Resolved Nothing FOund post error on home page

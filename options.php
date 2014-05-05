@@ -159,6 +159,14 @@ function optionsframework_options() {
 		'std' => '',
 		'class' => 'mini',
 		'type' => 'text');
+	
+	$options[] = array(
+		'name' => __('Bandcamp', 'kavya'),
+		'desc' => __('URL for your Bandcamp Profile', 'kavya'),
+		'id' => 'bandcamp',
+		'std' => '',
+		'class' => 'mini',
+		'type' => 'text');
 		
 	$options[] = array(
 	'name' => __('Support', 'kavya'),

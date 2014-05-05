@@ -23,13 +23,13 @@
 	<?php else : ?>
     
 	<div class="entry-summary">
-		<?php ?><?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'kavya' ) ); ?>
+		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'kavya' ) ); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'kavya' ),
 				'after'  => '</div>',
 			) );
-		?><?php ?>
+		?>
         <?php //the_excerpt(); ?>
 	</div><!-- .entry-content -->
     

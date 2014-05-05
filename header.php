@@ -78,6 +78,9 @@
         <?php if ( of_get_option( 'feedburner', false ) ) { ?>
         <a target="_blank" href="<?php echo esc_url(of_get_option('feedburner', true)); ?>" title="RSS Feeds" ><img src="<?php echo get_template_directory_uri()."/images/rss.png"; ?>"></a>
         <?php } ?>
+        <?php if ( of_get_option( 'bandcamp', false ) ) { ?>
+        <a target="_blank" href="<?php echo esc_url(of_get_option('feedburner', true)); ?>" title="RSS Feeds" ><img src="<?php echo get_template_directory_uri()."/images/bandcamp.png"; ?>"></a>
+        <?php } ?>
       </div>
       <div class="clear"></div>
     </div>

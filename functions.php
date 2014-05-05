@@ -140,7 +140,7 @@ function kavya_scripts() {
 	wp_enqueue_style( 'kavya-fonts', '//fonts.googleapis.com/css?family=Gilda+Display');
 	wp_enqueue_style( 'kavya-style', get_stylesheet_uri() );
 	
-	if ( (function_exists( 'of_get_option' )) && (of_get_option('sidebar-layout', true) != 1) ) {
+	if ( (function_exists( 'of_get_option' )) && (of_get_option('sidebar-layout', false) != 1) ) {
 		if (of_get_option('sidebar-layout', true) ==  'right') {
 			wp_enqueue_style( 'kavya-layout', get_template_directory_uri()."/css/layouts/content-sidebar.css" );
 		}
